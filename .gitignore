@@ -136,3 +136,6 @@ dmypy.json
 .pyre/
 
 # End of https://www.gitignore.io/api/macOS,python
+
+
+*/.ipynb_checkpoints/*.ipynb
