@@ -1,5 +1,12 @@
-
+#!/usr/bin/env python
 # coding: utf-8
+
+# In[ ]:
+
+
+import subprocess
+subprocess.run(['jupyter', 'nbconvert', '--to', 'python', 'titanic.ipynb'])
+
 
 # importは1つ目のセルに入れる。
 # 依存ライブラリを明白にするため。
@@ -228,4 +235,10 @@ PassengerId = np.array(df_test['PassengerId']).astype(int)
 my_solution = pd.DataFrame(my_prediction, PassengerId, columns = ["Survived"])
 
 my_solution.to_csv('gender_submission.csv', index_label = ["PassengerId"])
+
+
+# In[ ]:
+
+
+
 
