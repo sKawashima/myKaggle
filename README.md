@@ -8,6 +8,15 @@
 
 ## Usage
 
+Build
+
+```shell
+docker-compose build
+pip install --upgrade nbstripout
+```
+
+
+
 Start
 
 ```:shell
